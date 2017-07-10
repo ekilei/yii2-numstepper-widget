@@ -1,6 +1,6 @@
 <?php
 /**
- * created by Ekilei <ekilei@rusoft.ru>
+ * created by Ekilei <ekilei@gmial.com>
  */
 namespace common\widgets;
 
