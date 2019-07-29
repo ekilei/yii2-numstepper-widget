@@ -2,7 +2,7 @@
 /**
  * created by Ekilei <ekilei@gmail.com>
  */
-namespace ekilei\yii2NumstepperWidget;
+namespace ekilei\numstepper;
 
 use Yii;
 use yii\helpers\Html;
