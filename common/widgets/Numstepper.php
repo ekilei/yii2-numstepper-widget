@@ -12,8 +12,8 @@ class Numstepper extends \yii\widgets\InputWidget
     public $minusButton = 'minus';
     public $plusButton = 'plus';
 
-    public $min = null;
-    public $max = null;
+    public $min = 'null';
+    public $max = 'null';
     public $step = 1;
     public $default = 0;
     public $exclude = [];
@@ -99,7 +99,7 @@ class Numstepper extends \yii\widgets\InputWidget
             }" : "")."
             if(!num) num = $this->default;
             if($this->min != null && $this->min > num) num = $this->min; 
-            if($this->min != null && $this->max < num) num = $this->max; 
+            if($this->max != null && $this->max < num) num = $this->max; 
             $('#$id').val(num);
         });
         $selector.find('.plusbutton').on('click', function() {
@@ -110,7 +110,7 @@ class Numstepper extends \yii\widgets\InputWidget
             }" : "")."
             if(!num) num = $this->default;
             if($this->min != null && $this->min > num) num = $this->min; 
-            if($this->min != null && $this->max < num) num = $this->max; 
+            if($this->max != null && $this->max < num) num = $this->max; 
             $('#$id').val(num);
         });
         $('#$id').on('change',function(){
