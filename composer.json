@@ -2,7 +2,7 @@
   "name" : "ekilei/yii2-numstepper",
   "description" : "Input simular number",
   "type" : "yii2-extension",
-  "keywords" : ["yii2","widget","input","mumber","extension","bootstrap","step"],
+  "keywords" : ["yii2","widget","input","number","extension","bootstrap","step"],
   "license" : "MIT",
   "authors" : [
     {

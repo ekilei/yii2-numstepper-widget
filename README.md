@@ -55,7 +55,7 @@ With a hint
 ?>
 ```
 
-### Cо своими иконками кнопок
+### Со своими иконками кнопок
 With own icon buttons
 
 ![ScreenShot](https://raw.github.com/ekilei/yii2-numstepper-widget/master/screen/3.png)
@@ -85,4 +85,11 @@ With the change in the arrangement of the buttons
         'append' => ['{minus}','{plus}'],
     ])
 ?>
+```
+
+### Установка
+Install
+
+```
+composer require ekilei/yii2-numstepper-widget "dev-master"
 ```
