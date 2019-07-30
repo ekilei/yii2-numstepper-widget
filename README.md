@@ -6,7 +6,7 @@ Numstepper is an add-on above the InputWidget, designed for adaptive sites, conv
 
 
 ```angular2html
-<?= $form->field($model,'day')->widget(\common\widgets\Numstepper::className()) ?>
+<?= $form->field($model,'day')->widget(\ekilei\numstepper\Numstepper::className()) ?>
 ?>
 ```
 
@@ -16,7 +16,7 @@ With parameters
 ![ScreenShot](https://raw.github.com/ekilei/yii2-numstepper-widget/master/screen/1.png)
 
 ```angular2html
-<?= $form->field($model,'day')->widget(\common\widgets\Numstepper::className(),
+<?= $form->field($model,'day')->widget(\ekilei\numstepper\Numstepper::className(),
     [
         'min' => -28,
         'max' => 28,
@@ -27,7 +27,7 @@ With parameters
 ### C исключением и значением при инициализации
 With exception and initialization value
 ```angular2html
-<?= $form->field($model,'day')->widget(\common\widgets\Numstepper::className(),
+<?= $form->field($model,'day')->widget(\ekilei\numstepper\Numstepper::className(),
     [
         'min' => -28,
         'max' => 28,
@@ -43,7 +43,7 @@ With a hint
 ![ScreenShot](https://raw.github.com/ekilei/yii2-numstepper-widget/master/screen/2.png)
 
 ```angular2html
-<?= $form->field($model,'day')->widget(\common\widgets\Numstepper::className(),
+<?= $form->field($model,'day')->widget(\ekilei\numstepper\Numstepper::className(),
 [
     'min' => -28,
     'max' => 28,
@@ -61,7 +61,7 @@ With own icon buttons
 ![ScreenShot](https://raw.github.com/ekilei/yii2-numstepper-widget/master/screen/3.png)
 
 ```angular2html
-<?= $form->field($model,'day')->widget(\common\widgets\Numstepper::className(),
+<?= $form->field($model,'day')->widget(\ekilei\numstepper\Numstepper::className(),
     [
         'default' => (int)$model->day ? (int)$model->day : 1,
         'minusButton' => 'menu-down',
@@ -76,7 +76,7 @@ With the change in the arrangement of the buttons
 ![ScreenShot](https://raw.github.com/ekilei/yii2-numstepper-widget/master/screen/4.png)
               
 ```angular2html
-<?= $form->field($model,'day')->widget(\common\widgets\Numstepper::className(),
+<?= $form->field($model,'day')->widget(\ekilei\numstepper\Numstepper::className(),
     [
         'default' => (int)$model->day ? (int)$model->day : 1,
         'minusButton' => 'menu-down',
